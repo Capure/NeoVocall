@@ -40,10 +40,10 @@ YTDL-Core version  :: v${(await import(this.getPackageJSON("ytdl-core"))).versio
 Opus Encoder       :: ${opusEncoderName} v${(await import(this.getPackageJSON(opusEncoderName))).version}
 Bot Version        :: v${(await import(path.resolve(process.cwd(), "package.json"))).version}
 Data Strategy      :: ${await this.client.config.YouTubeDataRetrievingStrategy === "api" ? "REST API" : "HTML SCRAPING"}
-Source code        :: https://github.com/zhycorp/disc-11
+Source code        :: https://github.com/Capure/NeoVocall
 \`\`\`
         `)
-                .setAuthor(`${this.client.user?.username as string} - A simple Discord music bot`)
+                .setAuthor(`${this.client.user?.username as string} - The only music bot you will ever need!`)
         ).catch(e => this.client.logger.error("ABOUT_CMD_ERR:", e));
     }
 

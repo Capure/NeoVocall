@@ -1,8 +1,7 @@
 FROM node:14.16.0-alpine as build-stage
 
-LABEL name "Disc 11 (build stage)"
-LABEL maintainer "Zhycorp <support@zhycorp.com>"
-LABEL original-maintainer "Hazmi35 <contact@hzmi.xyz>"
+LABEL name "NeoVocall (build stage)"
+LABEL original-maintainer "Zhycorp <support@zhycorp.com>"
 
 WORKDIR /tmp/build
 
@@ -28,9 +27,8 @@ RUN npm prune --production
 # Get ready for production
 FROM node:14.16.0-alpine
 
-LABEL name "Disc 11"
-LABEL maintainer "Zhycorp <support@zhycorp.com>"
-LABEL original-maintainer "Hazmi35 <contact@hzmi.xyz>"
+LABEL name "NeoVocall (build stage)"
+LABEL original-maintainer "Zhycorp <support@zhycorp.com>"
 
 WORKDIR /app
 

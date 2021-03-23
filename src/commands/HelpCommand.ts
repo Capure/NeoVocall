@@ -18,7 +18,7 @@ export class HelpCommand extends BaseCommand {
             message.channel.send(
                 new MessageEmbed()
                     .setColor(this.client.config.embedColor)
-                    .setAuthor(`Information for the ${command.meta.name} command`, "https://raw.githubusercontent.com/zhycorp/disc-11/main/.github/images/question_mark.png")
+                    .setAuthor(`Information for the ${command.meta.name} command`, "https://raw.githubusercontent.com/Capure/NeoVocall/main/.github/images/question_mark.png")
                     .addFields({ name: "**Name**", value: command.meta.name, inline: true },
                         { name: "**Description**", value: command.meta.description, inline: true },
                         { name: "**Aliases**", value: `${Number(command.meta.aliases?.length) > 0 ? command.meta.aliases?.map(c => `${c}`).join(", ") as string : "None"}`, inline: true },
@@ -29,7 +29,7 @@ export class HelpCommand extends BaseCommand {
                 createEmbed("info", message.client.commands.filter(cmd => !cmd.meta.disable && cmd.meta.name !== "eval").map(c => `\`${c.meta.name}\``).join(" "))
                     .setAuthor("Command List")
                     .setThumbnail(message.client.user?.displayAvatarURL() as string)
-                    .setFooter(`Use ${message.client.config.prefix}help <command> to get more information on a specific command!`, "https://raw.githubusercontent.com/zhycorp/disc-11/main/.github/images/info.png")
+                    .setFooter(`Use ${message.client.config.prefix}help <command> to get more information on a specific command!`, "https://raw.githubusercontent.com/Capure/NeoVocall/main/.github/images/info.png")
             ).catch(e => this.client.logger.error("HELP_CMD_ERR:", e));
         }
     }
