@@ -1819,10 +1819,10 @@ ytpl@^2.0.5:
   dependencies:
     miniget "^4.1.0"
 
-ytsr@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/ytsr/-/ytsr-3.3.1.tgz#080e655e0cc4a41bc483f1f19ebbb53c5df7a1ce"
-  integrity sha512-OVFREa9GmtMlPhdSLLK30QX8JKf9Zy6xfBm6R/oJ2mjEaEmVC8vmE5C522lWNG553xZOZL4wkeTSPuFLZbo0PA==
+ytsr@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/ytsr/-/ytsr-3.5.0.tgz#116406e39e06211a19b1efddcdf56668442d26b2"
+  integrity sha512-e92xxZI8OxUCsbLtn0NfkuKuSDN4YZtG+ow64G3N4b+bkEWCjR0hEPye+iCBA07/02OXPmWHD88FPy1hq0izMQ==
   dependencies:
     miniget "^4.2.0"
 
