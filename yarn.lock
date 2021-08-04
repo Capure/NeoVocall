@@ -1179,10 +1179,10 @@ mime-types@^2.1.12:
   dependencies:
     mime-db "1.46.0"
 
-miniget@^4.0.0, miniget@^4.1.0, miniget@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/miniget/-/miniget-4.2.0.tgz#0004e95536b192d95a7d09f4435d67b9285481d0"
-  integrity sha512-IzTOaNgBw/qEpzkPTE7X2cUVXQfSKbG8w52Emi93zb+Zya2ZFrbmavpixzebuDJD9Ku4ecbaFlC7Y1cEESzQtQ==
+miniget@^4.0.0, miniget@^4.2.0, miniget@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/miniget/-/miniget-4.2.1.tgz#11a1c24817a059e292378eb9cff4328d9240c665"
+  integrity sha512-O/DduzDR6f+oDtVype9S/Qu5hhnx73EDYGyZKwU/qN82lehFZdfhoa4DT51SpsO+8epYrB3gcRmws56ROfTIoQ==
 
 minimatch@^3.0.4:
   version "3.0.4"
@@ -1812,12 +1812,12 @@ ytdl-core@^4.5.0:
     miniget "^4.0.0"
     sax "^1.1.3"
 
-ytpl@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/ytpl/-/ytpl-2.0.5.tgz#c56900bccaf96e289304de647bc861121f61223e"
-  integrity sha512-8hc+f3pijaogj1yoZTCGImMDS4x0ogFPDsx1PefNQ+2EAhJMm1K4brcYT9zpJhPi9SXh+O103pEIHDw3+dAhxA==
+ytpl@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/ytpl/-/ytpl-2.2.2.tgz#8f1a7f5aa07e8791feb74552e84aad96bfa64f31"
+  integrity sha512-dAqDASGqrsj2+9XJ1sFXirci249L2Nws1eN2driO0igxVp03N9dABmWKExK9brDnV1UUxfUGC7vFL7Px7BQM8A==
   dependencies:
-    miniget "^4.1.0"
+    miniget "^4.2.1"
 
 ytsr@^3.3.1:
   version "3.3.1"
