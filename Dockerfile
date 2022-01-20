@@ -1,4 +1,4 @@
-FROM node:14.16.0-alpine as build-stage
+FROM node:17.4.0-alpine as build-stage
 
 LABEL name "NeoVocall (build stage)"
 LABEL original-maintainer "Zhycorp <support@zhycorp.com>"
@@ -25,7 +25,7 @@ RUN npm run build
 RUN npm prune --production
 
 # Get ready for production
-FROM node:14.16.0-alpine
+FROM node:17.4.0-alpine
 
 LABEL name "NeoVocall (build stage)"
 LABEL original-maintainer "Zhycorp <support@zhycorp.com>"
